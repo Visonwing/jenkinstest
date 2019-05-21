@@ -8,7 +8,7 @@
   </path>
   <taskdef
      name="jmeter"
-     classname="org.programmerplant.ant.taskdefs.jmeter.JMeterTask"
+     classname="org.programmerplanet.ant.taskdefs.jmeter.JMeterTask"
      classpathref="ant.jmeter.classpath"/>
   <target name="clean">
     <delete dir="results"/>
