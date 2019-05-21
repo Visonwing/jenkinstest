@@ -19,7 +19,7 @@
   <target name="test" depends="clean">
     <jmeter 
 	   jmeterhome="${jmeter-home}"
-	   resultlogdir="result/jtl">
+	   resultlogdir="results/jtl">
 	   <testplans dir="." includes="参数化.jmx"/>
 	   <property name="jmeter.save.saveservice.output_format" value="xml" />
 	</jmeter>
